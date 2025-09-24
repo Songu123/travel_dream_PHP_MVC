@@ -35,7 +35,7 @@ $result_key = $conn->query($sql_key);
 ?>
 <!DOCTYPE html>
 <html lang="vi">
-<?php include 'app/views/layouts/header.php'; ?>
+<?php include '../app/views/layouts/header.php'; ?>
 <body>
 
     <!-- Navigation -->
@@ -111,7 +111,7 @@ $result_key = $conn->query($sql_key);
             </div>
         </div>
     </section>
-
+q
     <!-- Destinations Section -->
     <section id="destinations" class="py-5 bg-light">
         <div class="container">
@@ -137,7 +137,7 @@ $result_key = $conn->query($sql_key);
                         </div>
                         <div class="destination-content">
                             <h5><?php echo $tour['name']; ?></h5>
-                            <p><i class="fas fa-map-marker-alt text-primary me-2"></i><?php echo $tour['destination']; ?></p>
+                            <p><i class="fas fa-map-marker-alt text-primary me-2"></i><?php echo $tour['description']; ?></p>
                             <div class="destination-rating">
                                 <i class="fas fa-star text-warning"></i>
                                 <i class="fas fa-star text-warning"></i>
