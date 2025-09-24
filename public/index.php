@@ -151,7 +151,7 @@ q
                 </div>
                   <?php endforeach; ?>
         <?php } else { ?>
-            <tr><td colspan="3">Không có dữ liệu</td></tr>
+            <tr><td colspan="3">Không có dữ liệu </td></tr>
         <?php } ?>
             </div>
 
